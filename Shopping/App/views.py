@@ -6,6 +6,6 @@ def index(request):
 
 
 def detail(request):
-    return render(request,'common/phone_base_detail.html',context={
+    return render(request,'common/detailnew2.html',context={
         'title':'华为P30',
     })
